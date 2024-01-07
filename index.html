@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat-WhatsApp</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/output.css" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  </head>
+  <body class="bg-green-300 p-3">
+    <h1 class="text-center mb-5">Whatsapp UI Challenge</h1>
+    <section class="max-w-xs mx-auto">
+      <div class="bg-emerald-800 text-white px-3 py-4 flex justify-between">
+        <h4 class="font-semibold">WhatsApp</h4>
+        <div class="flex space-x-4">
+          <a href="#" class="hover:text-green-600">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="m19.6 21l-6.3-6.3q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5q0-2.725 1.888-4.612T9.5 3q2.725 0 4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l6.3 6.3zM9.5 14q1.875 0 3.188-1.312T14 9.5q0-1.875-1.312-3.187T9.5 5Q7.625 5 6.313 6.313T5 9.5q0 1.875 1.313 3.188T9.5 14"
+              />
+            </svg>
+          </a>
+          <a href="./setting.html" class="hover:text-green-500"> 
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M12 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <ul class="bg-emerald-800 text-white px-3 py-2 justify-between space-x-4 flex items-center">
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M12 18q2.075 0 3.538-1.462Q17 15.075 17 13q0-2.075-1.462-3.538Q14.075 8 12 8Q9.925 8 8.463 9.462Q7 10.925 7 13q0 2.075 1.463 3.538Q9.925 18 12 18Zm0-2q-1.25 0-2.125-.875T9 13q0-1.25.875-2.125T12 10q1.25 0 2.125.875T15 13q0 1.25-.875 2.125T12 16Zm6-6q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8t-.712.287Q17 8.575 17 9t.288.712Q17.575 10 18 10ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L8.7 3.325q.15-.15.337-.238Q9.225 3 9.425 3h5.15q.2 0 .388.087q.187.088.337.238L16.85 5H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Z"
+            />
+          </svg>
+        </li>
+        <li class="flex flex-1 items-center justify-between">
+          <div class="font-medium space-x-1 flex items-center relative">
+            <a href="./index.html" class="text-xs">Chats</a>
+            <span class="bg-white text-emerald-700 text-xs p-1 h-5 w-5 rounded-full flex justify-center items-center"
+              >10</span
+            >
+            <div class="bg-white border-b-2 w-full h-1 absolute top-6 right-1"></div>
+          </div>
+          <div class="font-medium space-x-1 flex items-center">
+            <a href="./status.html" class="text-xs text-gray-200">Status</a>
+          </div>
+          <div class="font-medium space-x-1 flex items-center">
+            <a href="./calls.html" class="text-xs text-gray-200">Calls</a>
+          </div>
+        </li>
+        </li>
+      </ul>
+         <!-- chat -->
+      <div class="bg-white relative">
+        <!-- chat 1 -->
+         <div class="bg-white flex items-center px-2 py-3 hover:cursor-pointer hover:bg-gray-200">
+                 <div>
+                   <img src="https://ui-avatars.com/api/?name=Vignesh&background=0D8ABC&color=fff"
+                   alt="Vignesh" class="rounded-full w-12">
+                </div>
+                <div class="flex-1 ml-2">
+                  <h4 >Vignesh</h4>
+                  <p class="text-gray-500 text-sm">Hello,How are you &#128513;</p>
+                </div>
+                <div class="flex flex-col items-center">
+                  <span class="text-green-500 text-sm">05:00PM</span>
+                  <span class="bg-green-600 text-white text-xs p-1 h-5 w-5 rounded-full flex justify-center items-center"
+                >2</span>
+                </div>
+        </div>
+        <hr class="border-1">
+          <!-- chat 2 -->
+          <div class="bg-white flex items-center px-2 py-3 hover:cursor-pointer hover:bg-gray-200">
+            <div>
+              <img src="https://ui-avatars.com/api/?name=Shriram&background=random&color=fff"
+              alt="Shriram" class="rounded-full w-12">
+           </div>
+           <div class="flex-1 ml-2">
+             <h4 >Shriram</h4>
+             <p class="text-gray-500 text-sm">What are you doing? &#128517;</p>
+           </div>
+           <div class="flex flex-col items-center">
+             <span class="text-green-500 text-sm">04:00PM</span>
+             <span class="bg-green-600 text-white text-xs p-1 h-5 w-5 rounded-full flex justify-center items-center"
+           >2</span>
+           </div>
+         </div>
+         <hr class="border-1">
+          <!-- chat 3 -->
+          <div class="bg-white flex items-center px-2 py-3 hover:cursor-pointer hover:bg-gray-200">
+            <div>
+              <img src="https://ui-avatars.com/api/?name=Monish&background=random&color=fff"
+              alt="Monish" class="rounded-full w-12">
+           </div>
+           <div class="flex-1 ml-2">
+             <h4 >Monish</h4>
+             <p class="text-gray-500 text-sm">epadi iruka</p>
+           </div>
+           <div class="flex flex-col items-center">
+             <span class="text-green-500 text-sm">03:00PM</span>
+             <span class="bg-green-600 text-white text-xs p-1 h-5 w-5 rounded-full flex justify-center items-center"
+           >2</span>
+           </div>
+         </div>
+         <hr class="border-1">
+          <!-- chat 4 -->
+          <div class="bg-white flex items-center px-2 py-3 hover:cursor-pointer hover:bg-gray-200">
+            <div>
+              <img src="https://ui-avatars.com/api/?name=Karthik&background=random&color=fff"
+              alt="Karthik" class="rounded-full w-12">
+           </div>
+           <div class="flex-1 ml-2">
+             <h4 >Karthik</h4>
+             <p class="text-gray-500 text-sm">Movie poren &#127909;</p>
+           </div>
+           <div class="flex flex-col items-center">
+             <span class="text-green-500 text-sm">02:00PM</span>
+             <span class="bg-green-600 text-white text-xs p-1 h-5 w-5 rounded-full flex justify-center items-center"
+           >2</span>
+           </div>
+         </div>
+         <hr class="border-1">
+          <!-- chat 5 -->
+          <div class="bg-white flex items-center px-2 py-3 hover:cursor-pointer hover:bg-gray-200">
+            <div>
+              <img src="https://ui-avatars.com/api/?name=Ram&background=random&color=fff"
+              alt="Ram" class="rounded-full w-12">
+           </div>
+           <div class="flex-1 ml-2">
+             <h4 >Ram</h4>
+             <p class="text-gray-500 text-sm">Hello,friend</p>
+           </div>
+           <div class="flex flex-col items-center">
+             <span class="text-green-500 text-sm">02:00PM</span>
+             <span class="bg-green-600 text-white text-xs p-1 h-5 w-5 rounded-full flex justify-center items-center"
+           >2</span>
+           </div>
+         </div>
+         <div class="bg-emerald-700 w-12 h-12 rounded-full flex justify-center items-center absolute bottom-5 right-5 hover:bg-emerald-900">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" class="fill-white"><path d="M6 14h8v-2H6zm0-3h12V9H6zm0-3h12V6H6zM2 22V4q0-.825.588-1.412T4 2h16q.825 0 1.413.588T22 4v12q0 .825-.587 1.413T20 18H6zm3.15-6H20V4H4v13.125zM4 16V4z"/></svg>
+         </div>
+      </div>
+    </section>`
+  </body>
+</html>
